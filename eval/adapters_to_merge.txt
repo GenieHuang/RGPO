@@ -1,0 +1,3 @@
+# List of LoRA adapters to merge with base models
+# Run: python eval/merge_lora_adapters.py --adapters-file eval/adapters_to_merge.txt
+# e.g. outputs/rgpo_dpo_multipref_helpful_beta0.05_meta-llama/Meta-Llama-3-8B-Instruct
