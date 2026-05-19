@@ -14,7 +14,11 @@ hf_key=your_huggingface_token
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-## Step 3: Generate Reliability-based Preference Pairs
+## Step 3: Preprocess Datasets
+
+Run `data/data_preprocess.ipynb` to standardize the raw datasets
+
+## Step 4: Generate Reliability-based Preference Pairs
 
 ```bash
 # HelpSteer2 - helpfulness (with ties)
@@ -30,7 +34,7 @@ python maximum_like_est/mle_model.py \
     --annotation_dim helpful
 ```
 
-## Step 4: Train Model
+## Step 5: Train Model
 
 ```bash
 # Train on HelpSteer2
@@ -40,7 +44,7 @@ bash run_rgpo_helpsteer2.sh
 bash run_rgpo_multipref.sh
 ```
 
-## Step 5: Evaluate Models
+## Step 6: Evaluate Models
 
 ```bash
 # AlpacaEval 2.0
