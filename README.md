@@ -55,3 +55,18 @@ bash eval/run_alpaca_eval.sh
 # Then run the evaluation script:
 bash eval/run_arena_hard.sh
 ```
+
+## Citation
+
+Thank you for your interest in our work! If you find this project helpful, please cite our paper:
+
+```bibtex
+@inproceedings{
+anonymous2026reliabilityaware,
+title={Reliability-Aware {LLM} Alignment from Inconsistent Human Feedback},
+author={Anonymous},
+booktitle={Forty-third International Conference on Machine Learning},
+year={2026},
+url={https://openreview.net/forum?id=0LeyqHkrEG}
+}
+```
