@@ -61,10 +61,9 @@ bash eval/run_arena_hard.sh
 Thank you for your interest in our work! If you find this project helpful, please cite our paper:
 
 ```bibtex
-@inproceedings{
-anonymous2026reliabilityaware,
+@inproceedings{huang2026reliabilityaware,
 title={Reliability-Aware {LLM} Alignment from Inconsistent Human Feedback},
-author={Anonymous},
+author={Huang, Jingyi and Zong, Ruohan and Feng, Yujun and Ma, Liran and Shang, Lanyu and Zhang, Yang},
 booktitle={Forty-third International Conference on Machine Learning},
 year={2026},
 url={https://openreview.net/forum?id=0LeyqHkrEG}
